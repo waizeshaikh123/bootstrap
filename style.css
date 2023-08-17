@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lato:wght@100;300;400;700;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300&family=Ubuntu:wght@300;400;500;700&display=swap');    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Borel', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+h1{
+font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration:none ;
+}
+:root{
+    --bg-blue:#3BA0C2;
+    --white:#ffff;
+    --black:#000;
+    --dada:#F6DEC8;
+
+}
+
+.button a{
+    text-decoration: none;
+    border: none;
+    border-radius: 2rem;
+    border-top-right-radius: 0.5rem;
+}
+.nav-link{
+    color: var(--white);
+}
+.nav-link:hover{
+    color: var(--bg-blue);
+}
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.hero-section{
+    height: 90vh;
+    position: relative;
+}
+.row img{
+    width: 100%;
+    border-radius: 4rem;
+}
+.text-h1{
+    -webkit-text-stroke: 3px #F6DEC8;
+    color: var(--white);
+}
+
+.custom-shape-divider-bottom-1692290533 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692290533 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-bottom-1692290533 .shape-fill {
+    fill: #FFFFFF;
+}
+/* service */
+
+.service-section{
+    padding: 5rem 0 3rem 0 !important;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+.text-h2{
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2px var(--black);
+    color: var(--black);
+
+}
+.card-box img{
+    width: 200px;
+    border-radius: 2rem;
+}
+.icon-span{
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: var(--bg-blue);
+    color: var(--white);
+}
+.card-box:hover{
+    box-shadow: rgba(149,157,165,0.2)0 8px 24px;
+}
