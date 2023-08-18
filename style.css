@@ -25,6 +25,8 @@ a{
     --white:#ffff;
     --black:#000;
     --dada:#F6DEC8;
+    --pink:#FF0084;
+    --light-black:#34465D;
 
 }
 
@@ -90,7 +92,11 @@ a{
     font-size: 2.5rem;
     -webkit-text-stroke: 2px var(--black);
     color: var(--black);
-
+}
+.text-h3{
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2px var(--dada);
+    color: var(--white);
 }
 .card-box img{
     width: 200px;
@@ -104,4 +110,26 @@ a{
 }
 .card-box:hover{
     box-shadow: rgba(149,157,165,0.2)0 8px 24px;
+}
+.main-hero{
+    background:linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.7)), url(images/background.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.star i{
+    color: var(--pink);
+}
+.card{
+    height: 100%;
+    transition: 0.5s;
+}
+.card:hover{
+    background: var(--light-black);
+}
+.carousel-indicators {
+    bottom: -10%;
 }
