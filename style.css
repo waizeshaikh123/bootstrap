@@ -129,7 +129,16 @@ a{
 }
 .card:hover{
     background: var(--light-black);
+    color: var(--white);
 }
 .carousel-indicators {
     bottom: -10%;
+}
+.same p{
+    padding: 0 5px;
+}
+.button-card{
+    padding: 18px;
+    background: var(--black);
+    border: none;
 }
