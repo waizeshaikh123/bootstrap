@@ -19,6 +19,7 @@ font-family: 'Noto Sans', sans-serif;
 }
 a{
     text-decoration:none ;
+    color: var(--white);
 }
 :root{
     --bg-blue:#3BA0C2;
@@ -108,6 +109,9 @@ a{
     background-color: var(--bg-blue);
     color: var(--white);
 }
+.card-box{
+    transition: 0.5s;
+}
 .card-box:hover{
     box-shadow: rgba(149,157,165,0.2)0 8px 24px;
 }
@@ -164,4 +168,25 @@ a{
 
 .custom-shape-divider-top-1692376471 .shape-fill {
     fill: #FFFFFF;
+}
+.contacting img{
+    width: 10rem;
+}
+.list-group ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.list-group ul li a{
+    color: var(--dada);
+    font-weight: 300;
+}
+.width{
+    width: 2rem;
+    height: 2rem;
+}
+.main{
+    margin: 0 10px;
+}
+.main a:hover{
+    color: var(--dada);
 }
